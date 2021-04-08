@@ -1,9 +1,15 @@
-# IMPORTANT: Bug Fixes
+# Face-Detection-JavaScript
 
-## `navigator.getUserMedia`
+## How to run
 
-`navigator.getUserMedia` is now deprecated and is replaced by `navigator.mediaDevices.getUserMedia`. To fix this bug replace all versions of `navigator.getUserMedia` with `navigator.mediaDevices.getUserMedia`
+You can install [live server](https://ritwickdey.github.io/vscode-live-server/) extension in your vscode, and right-click on the file run from live server.
 
-## Low-end Devices Bug
+## Reference
 
-The video eventListener for `play` fires up too early on low-end machines, before the video is fully loaded, which causes errors to pop up from the Face API and terminates the script (tested on Debian [Firefox] and Windows [Chrome, Firefox]). Replaced by `playing` event, which fires up when the media has enough data to start playing.
+- Forked: https://github.com/WebDevSimplified/Face-Detection-JavaScript
+- Tutorial: [YouTube](https://www.youtube.com/watch?v=CVClHLwv-4I)
+- Face API Library: https://github.com/justadudewhohacks/face-api.js
+
+## Go on for Face Recognition
+
+- Face Recognition: https://github.com/ProgramSimplified/Face-Recognition-JavaScript
